@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.bibliotecajfx.controller.EliminarEmpleadoController">
+   <children>
+      <Label layoutX="202.0" layoutY="71.0" text="Eliminar Empleado">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblIDEmpleadoElimininar" layoutX="138.0" layoutY="170.0" text="Ingrese el ID:" />
+      <TextField fx:id="txtIDEmpleadoEliminar" layoutX="226.0" layoutY="166.0" />
+      <Button fx:id="btnCargarEmpleadoEliminar" layoutX="274.0" layoutY="227.0" mnemonicParsing="false" onAction="#cargarEmpleado" text="Cargar" />
+      <Label fx:id="lblNombreEmpleadoEliminar" layoutX="251.0" layoutY="285.0" text="Nombre Empleado" />
+      <Button fx:id="btnRegresarEliminarEmpleado" layoutX="64.0" layoutY="30.0" mnemonicParsing="false" onAction="#regresarEmpleado" text="Regresar" />
+      <Button fx:id="btnTerminarEliminarEmpleado" layoutX="173.0" layoutY="281.0" mnemonicParsing="false" onAction="#onEliminarEmpleado" text="Eliminar" />
+   </children>
+</AnchorPane>

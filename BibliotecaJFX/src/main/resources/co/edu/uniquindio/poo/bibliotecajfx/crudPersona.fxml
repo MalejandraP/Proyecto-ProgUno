@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="429.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.bibliotecajfx.viewController.PersonaViewController">
+    <children>
+        <SplitPane orientation="VERTICAL" prefHeight="566.0" prefWidth="429.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="101.0" prefWidth="427.0">
+                    <children>
+                        <TableView fx:id="tblListPersona" layoutX="10.0" layoutY="470.0" prefHeight="54.0" prefWidth="408.0">
+                            <columns>
+                                <TableColumn fx:id="tbcNombre" prefWidth="75.0" text="Nombre" />
+                                <TableColumn fx:id="tbcIdentificacion" prefWidth="93.0" text="Identificacion" />
+                                <TableColumn fx:id="tbcGenero" prefWidth="57.0" text="Genero" />
+                        <TableColumn fx:id="tbcEdad" prefWidth="57.0" text="Edad" />
+                            </columns>
+                        </TableView>
+                        <Button fx:id="btnLimpiar" layoutX="93.0" layoutY="223.0" mnemonicParsing="false" onAction="#onLimpiar" prefHeight="25.0" prefWidth="106.0" text="Limpiar" />
+                        <Button fx:id="btnEliminar" layoutX="234.0" layoutY="223.0" mnemonicParsing="false" onAction="#onEliminar" prefHeight="25.0" prefWidth="97.0" text="Eliminar" />
+                      <AnchorPane layoutX="-45.0" layoutY="-64.0" minHeight="0.0" minWidth="0.0" prefHeight="370.0" prefWidth="427.0">
+                     <children>
+                              <Pane layoutX="125.0" layoutY="121.0" prefHeight="249.0" prefWidth="360.0" style="-fx-border-image-width: 1px;">
+                                  <effect>
+                                      <Blend />
+                                  </effect>
+                                  <children>
+            
+                                                              <TextField fx:id="txtNombre" layoutX="49.0" layoutY="84.0" prefHeight="25.0" prefWidth="194.0" />
+                                      <TextField fx:id="txtIdentificacion" layoutX="26.0" layoutY="34.0" prefHeight="25.0" prefWidth="194.0" />
+                                      <TextField fx:id="txtGenero" layoutX="89.0" layoutY="151.0" prefHeight="25.0" prefWidth="194.0" />
+                                      <Button fx:id="btbAgregarPersona" layoutX="19.0" layoutY="220.0" mnemonicParsing="false" onAction="#onAgregarPersona" text="Agregar persona" />
+                                      <Button fx:id="btnActualizarPersona" layoutX="186.0" layoutY="207.0" mnemonicParsing="false" onAction="#onActualizarPersona" text="Actualizar persona" />
+                              <Label layoutX="49.0" layoutY="160.0" prefHeight="27.0" prefWidth="45.0" text="Edad:">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="txtEdad" layoutX="56.0" layoutY="125.0" prefHeight="25.0" prefWidth="194.0" />
+                                  </children>
+                              </Pane>
+                                <Label layoutX="164.0" layoutY="97.0" text="Gestión Personal">
+                                    <font>
+                                        <Font name="System Bold" size="18.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="63.0" layoutY="202.0" text="Identificacion:">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="lbNombre" layoutX="43.0" layoutY="157.0" prefHeight="27.0" prefWidth="80.0" text="Nombre:">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="89.0" layoutY="247.0" text="Genero:">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                     </children>
+                      </AnchorPane>
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</AnchorPane>

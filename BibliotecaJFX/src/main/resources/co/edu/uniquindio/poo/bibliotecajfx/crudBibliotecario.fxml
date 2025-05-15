@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.bibliotecajfx.CrudBibliotecario">
+   <children>
+      <Label layoutX="239.0" layoutY="52.0" text="Bibliotecario">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Button layoutX="131.0" layoutY="143.0" mnemonicParsing="false" text="Registrar Libro" />
+      <Button layoutX="119.0" layoutY="188.0" mnemonicParsing="false" text="Gestión del Usuario" />
+      <Button layoutX="352.0" layoutY="188.0" mnemonicParsing="false" text="Prestar Libro" />
+      <Button layoutX="347.0" layoutY="143.0" mnemonicParsing="false" text="Devolver Libro" />
+      <Button layoutX="347.0" layoutY="242.0" mnemonicParsing="false" text="Usuarios deudores" />
+      <Button layoutX="92.0" layoutY="242.0" mnemonicParsing="false" text="Libros Mas Solicitados" />
+      <Button layoutX="46.0" layoutY="44.0" mnemonicParsing="false" text="Regresar" />
+   </children>
+</AnchorPane>

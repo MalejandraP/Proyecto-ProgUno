@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.bibliotecajfx.CrudBiblioteca">
+   <children>
+      <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="82.0" layoutY="38.0" prefHeight="59.0" prefWidth="255.0" text="Biblioteca UQ" textAlignment="JUSTIFY">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblIngresar" layoutX="419.0" layoutY="141.0" text="Ingresar ID:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtIngresarID" layoutX="390.0" layoutY="188.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.bibliotecajfx.CrudAdministrador">
+   <children>
+      <Label fx:id="lblAdministrador" layoutX="340.0" layoutY="25.0" text="Administrador">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblQueDeseasHacer" layoutX="222.0" layoutY="115.0" text="¿Qué deseas hacer?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnPrestamosEnElMes" layoutX="55.0" layoutY="188.0" mnemonicParsing="false" onAction="#onPrestamosEnELMes" text="Préstamos del mes" />
+      <Button fx:id="btnEmpleadosEliminados" layoutX="379.0" layoutY="188.0" mnemonicParsing="false" onAction="#onEmpleadosEliminados" text="Cantidad empleados eliminados" />
+      <Button fx:id="btnRegistrarEmpleado" layoutX="53.0" layoutY="276.0" mnemonicParsing="false" onAction="#onRegistrarEmpleado" text="Registrar empleado" />
+      <Button fx:id="btnModificarEmpleado" layoutX="239.0" layoutY="276.0" mnemonicParsing="false" onAction="#onModificarEmpleado" text="Modificar empleado" />
+      <Button fx:id="btnEliminarEmpleado" layoutX="415.0" layoutY="276.0" mnemonicParsing="false" onAction="#onEliminarEmpleado" text="Eliminar empleado" />
+   </children>
+</AnchorPane>

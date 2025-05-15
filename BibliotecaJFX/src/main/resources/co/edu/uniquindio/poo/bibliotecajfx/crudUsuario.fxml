@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.bibliotecajfx.CrudUsuario">
+   <children>
+      <Label layoutX="160.0" layoutY="30.0" text="Gestión Usuarios">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="58.0" layoutY="86.0" text="Identificacion:" />
+      <Label layoutX="84.0" layoutY="125.0" text="Nombre:" />
+      <Label layoutX="95.0" layoutY="163.0" text="Genero:" />
+      <Label layoutX="97.0" layoutY="195.0" text="Correo:" />
+      <Label layoutX="83.0" layoutY="228.0" text="Telefono:" />
+      <Label layoutX="102.0" layoutY="267.0" text="Edad:" />
+      <TextField layoutX="151.0" layoutY="82.0" />
+      <TextField layoutX="151.0" layoutY="121.0" />
+      <TextField layoutX="151.0" layoutY="159.0" />
+      <TextField layoutX="151.0" layoutY="191.0" />
+      <TextField layoutX="151.0" layoutY="224.0" />
+      <TextField layoutX="151.0" layoutY="263.0" />
+      <TableView layoutX="16.0" layoutY="347.0" prefHeight="200.0" prefWidth="419.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="ID" />
+          <TableColumn prefWidth="75.0" text="Nombre" />
+            <TableColumn prefWidth="58.0" text="Genero" />
+            <TableColumn prefWidth="85.0" text="Correo" />
+            <TableColumn prefWidth="76.0" text="Telefono" />
+            <TableColumn prefWidth="49.0" text="Edad" />
+        </columns>
+      </TableView>
+      <Button layoutX="286.0" layoutY="300.0" mnemonicParsing="false" text="Modificar" />
+      <Button layoutX="111.0" layoutY="300.0" mnemonicParsing="false" text="Registrar" />
+      <Button layoutX="199.0" layoutY="561.0" mnemonicParsing="false" text="Eliminar" />
+      <Button layoutX="23.0" layoutY="18.0" mnemonicParsing="false" text="Regresar" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.bibliotecajfx.CrudModificarEmpleado">
+   <children>
+      <Label layoutX="194.0" layoutY="49.0" text="Modificar Empleado">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="lblIdentificacionEmpleadoModificar" layoutX="167.0" layoutY="102.0" text="Identificacion:" />
+      <Label fx:id="lblNombreEM" layoutX="71.0" layoutY="150.0" text="Nombre:" />
+      <Label fx:id="lblGeneroEM" layoutX="75.0" layoutY="192.0" text="Genero:" />
+      <Label fx:id="lblCorroEM" layoutX="77.0" layoutY="230.0" text="Correo:" />
+      <Label fx:id="lblTelefonoEM" layoutX="70.0" layoutY="268.0" text="Telefono:" />
+      <Label fx:id="lblEdadEM" layoutX="88.0" layoutY="312.0" text="Edad:" />
+      <TextField fx:id="txtNombreEM" layoutX="140.0" layoutY="146.0" />
+      <TextField layoutX="255.0" layoutY="98.0" />
+      <TextField fx:id="txtGeneroEM" layoutX="140.0" layoutY="188.0" />
+      <TextField fx:id="txtCorreoEM" layoutX="140.0" layoutY="226.0" />
+      <TextField fx:id="txtTelefonoEM" layoutX="140.0" layoutY="264.0" />
+      <TextField fx:id="txtEdadEM" layoutX="140.0" layoutY="308.0" />
+      <Button fx:id="btnCargarEmpleadoModificar" layoutX="426.0" layoutY="98.0" mnemonicParsing="false" onAction="#cargarEmpleado" text="Cargar" />
+      <Button fx:id="btnModificarEmpleado" layoutX="400.0" layoutY="214.0" mnemonicParsing="false" onAction="#modificarEmpleado" text="Modificar" />
+      <Button fx:id="btnRegresarEmpleadoModificar" layoutX="36.0" layoutY="37.0" mnemonicParsing="false" onAction="#regresarEmpleado" text="Regresar" />
+      <Label fx:id="lblCargoEM" layoutX="322.0" layoutY="150.0" text="Cargo:" />
+      <ComboBox fx:id="cbxCargoModificaEmpleado" layoutX="385.0" layoutY="146.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

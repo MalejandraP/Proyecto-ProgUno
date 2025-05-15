@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.poo.bibliotecajfx.controller.RegistrarEmpleadoController">
+   <children>
+      <Label fx:id="lblRegistrarEmpleado" layoutX="197.0" layoutY="38.0" text="Registrar Empleado">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblNombreEmpleado" layoutX="53.0" layoutY="104.0" text="Nombre:" />
+      <Label fx:id="lblIdentificacionEmpleado" layoutX="278.0" layoutY="104.0" text="Identificacion:" />
+      <Label fx:id="lblGeneroEmpleado" layoutX="56.0" layoutY="161.0" text="Genero:" />
+      <Label fx:id="lblTelefonoEmpleado" layoutX="53.0" layoutY="213.0" text="Telefono:" />
+      <Label fx:id="lblEdadEmpleado" layoutX="306.0" layoutY="213.0" text="Edad:" />
+      <Label fx:id="lblCorreoEmpleado" layoutX="301.0" layoutY="161.0" text="Correo:" />
+      <TextField fx:id="txtNombreEmpleado" layoutX="109.0" layoutY="100.0" />
+      <TextField fx:id="txtIdentificacionEmpleado" layoutX="360.0" layoutY="100.0" />
+      <TextField fx:id="txtGeneroEmpleado" layoutX="109.0" layoutY="157.0" />
+      <TextField fx:id="txtCorreoEmpleado" layoutX="360.0" layoutY="157.0" />
+      <TextField fx:id="txtTelefonoEmpleado" layoutX="109.0" layoutY="209.0" />
+      <TextField fx:id="txtEdadEmpleado" layoutX="360.0" layoutY="209.0" />
+      <Label fx:id="lblCargoEmpleado" layoutX="63.0" layoutY="270.0" text="Cargo:" />
+      <ComboBox fx:id="cbxCargoEmpleado" layoutX="109.0" layoutY="266.0" prefWidth="150.0" promptText="Elija su cargo">
+         <items>
+            <FXCollections fx:factory="observableArrayList">
+               <String fx:value="Bibliotecario" />
+            </FXCollections>
+         </items>
+      </ComboBox>
+      <Button fx:id="btnTerminarREgistroEmpleado" layoutX="403.0" layoutY="275.0" mnemonicParsing="false" onAction="#onRegistrarEmpleado" text="Registrar" />
+      <Button fx:id="btnRegresarRegistroEmpleado" layoutX="51.0" layoutY="26.0" mnemonicParsing="false" onAction="#onRegresarEmpleado" text="Regresar" />
+   </children>
+</AnchorPane>
